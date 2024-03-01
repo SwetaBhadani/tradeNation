@@ -25,5 +25,6 @@ Below is a sample screenshot:
 * It finds and clicks on the ‘Log In’ button which takes us to the login page
 * It then finds and clicks on "Login with Google" button
 * And validates the page errors out as forbidden "403" (login with google tries to authenticate user using auth0 which is not supported by scripts and it forbids access)
+![Screenshot 2024-03-01 at 6 10 28 PM](https://github.com/SwetaBhadani/tradeNation/assets/68321175/6870ff76-59e9-484c-9b58-23935744f993)
 
 
