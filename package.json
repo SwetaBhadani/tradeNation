@@ -1,0 +1,20 @@
+{
+  "name": "cypress_mocha_fw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-report": "cypress run --spec '**/*.cy.js' --browser chrome --headless"
+  },
+  "author": "Sweta Bhadani",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6",
+    "mocha": "^10.3.0",
+    "mochawesome": "^7.1.3"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
