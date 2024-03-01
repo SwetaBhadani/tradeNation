@@ -7,7 +7,7 @@ run the below command to run through headless mode:
   * **npx cypress open**
 3. To run both test cases and generate report, run the below command
 * **npm run html-report**
-
+The project uses cypress-mochawesome-reporter plugin to generate the report.
   The existing report can be found in <project-folder-path>/tradeNation/cypress/reports/html/index.html
 
 Below is a sample screenshot: 
